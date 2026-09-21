@@ -1,0 +1,5 @@
+Timestamp,Host_Prefix,Asset_Class,Unique_Hardware_ID,Parent_Hub_ID,Physical_Port_Slot,Operating_System,Operator_User
+2026-09-20 22:23:14,B4,HUB_MASTER_STRIP,B4-H12,NONE,00,Windows 11 Pro,tlynch
+2026-09-20 22:23:14,B4,SENSOR_NODE_DONGLE,B401,B4-H12,01,Windows 11 Pro,tlynch
+2026-09-20 22:23:14,B4,SENSOR_NODE_DONGLE,B402,B4-H12,02,Windows 11 Pro,tlynch
+2026-09-20 22:23:14,B4,SENSOR_NODE_DONGLE,B403,B4-H12,03,Windows 11 Pro,tlynch
