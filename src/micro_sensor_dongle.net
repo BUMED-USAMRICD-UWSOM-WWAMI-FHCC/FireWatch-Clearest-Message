@@ -1,0 +1,42 @@
+# (export (version 20240108) (generator "pcbnew")
+#   (meta (generator "KiCad") (version "8.0.0"))
+#   (components
+#     ;; Standard Industry Colorway USB-B Male Primary Interface Connection
+#     (comp (ref "J_CONN1")
+#       (value "USB_B_Male_Standard")
+#       (footprint "Connector_USB:USB_B_Male_Horizontal"))
+#     ;; Compact High-Definition Camera CMOS Sensor Matrix
+#     (comp (ref "U_CAM1")
+#       (value "CMOS_Image_Sensor")
+#       (footprint "Package_LGA:LGA-24_3.5x3.5mm"))
+#     ;; Micro-Bolometer Long-Wave Infrared Heat Sensor Array
+#     (comp (ref "U_HEAT1")
+#       (value "LWIR_Thermal_Sensor")
+#       (footprint "Package_LGA:FLIR_Lepton_Socket"))
+#     ;; Low-Noise Digital MEMS Microphone Component
+#     (comp (ref "U_MIC1")
+#       (value "MEMS_Microphone_Digital")
+#       (footprint "Audio:Microphone_Knowles_SPH0645LM4H"))
+#   )
+#   (nets
+#     ;; Main Power Bus (Using 2oz/3oz Thick Copper Optimization Layers)
+#     (net (code 1) (name "VCC_USB_5V")
+#       (node (ref "J_CONN1") (pin "1"))
+#       (node (ref "U_CAM1")  (pin "12"))
+#       (node (ref "U_HEAT1") (pin "5"))
+#       (node (ref "U_MIC1")  (pin "1")))
+#     ;; Continuous Ground Plane Isolation Shield Trace Loop
+#     (net (code 2) (name "GND_SHIELD")
+#       (node (ref "J_CONN1") (pin "4"))
+#       (node (ref "U_CAM1")  (pin "24"))
+#       (node (ref "U_HEAT1") (pin "8"))
+#       (node (ref "U_MIC1")  (pin "3")))
+#     ;; High-Speed Balanced Signal Lines Matrix
+#     (net (code 3) (name "USB_DATA_N")
+#       (node (ref "J_CONN1") (pin "2"))
+#       (node (ref "U_CAM1")  (pin "3")))
+#     (net (code 4) (name "USB_DATA_P")
+#       (node (ref "J_CONN1") (pin "3"))
+#       (node (ref "U_CAM1")  (pin "4")))
+#   )
+# )
